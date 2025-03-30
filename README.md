@@ -8,9 +8,9 @@ Uses FetchAI uAgents framework to handle agent communication.
 
 Integrates with Groq for AI-powered financial assistance.
 
-Implements pathway dynamic vector_store for efficient similarity-based search.
+Implements Pathway dynamic vector_store for efficient similarity-based search.
 
-Provides real-time budget insights, summaries and tips based on user queries.
+Provides real-time budget insights, summaries, and tips based on user queries.
 
 Technologies Used
 
@@ -34,7 +34,7 @@ Required dependencies (install using pip install -r requirements.txt)
 
 Anvil Uplink
 
-Environment variable for GROQ_API_KEY and Anvil server
+Environment variables for GROQ_API_KEY and Anvil server
 
 Installation
 
@@ -50,6 +50,7 @@ pip install -r requirements.txt
 Set up environment variables:
 
 export GROQ_API_KEY="your-api-key"
+export ANVIL_SERVER="your-anvil-server"
 
 Usage
 
@@ -63,7 +64,8 @@ YourFinanceBuddy/
 ├── main.ipynb                 # Jupyter Notebook with main logic
 ├── requirements.txt            # List of dependencies
 ├── README.md                  # Documentation
-├── budget_breakdown.py      #Budget Breakdown Agent
+├── budget_breakdown.py         # Budget Breakdown Agent
+
 Contribution
 
 Feel free to submit issues or pull requests to improve the project.
@@ -71,3 +73,4 @@ Feel free to submit issues or pull requests to improve the project.
 License
 
 This project is open-source and available under the MIT License.
+
