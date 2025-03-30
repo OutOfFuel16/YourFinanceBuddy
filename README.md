@@ -1,76 +1,75 @@
-Introduction
+# YourFinanceBuddy
 
 YourFinanceBuddy is an AI-powered financial assistant that provides budget summaries based on user queries. It leverages AI agents to process queries, retrieve relevant financial data, and generate insights.
 
-Features
+## Features
 
-Uses FetchAI uAgents framework to handle agent communication.
+- Uses FetchAI uAgents framework to handle agent communication.
+- Integrates with Groq for AI-powered financial assistance.
+- Implements Pathway dynamic vector store for efficient similarity-based search.
+- Provides real-time budget insights, summaries, and tips based on user queries.
 
-Integrates with Groq for AI-powered financial assistance.
+## Technologies Used
 
-Implements Pathway dynamic vector_store for efficient similarity-based search.
+- Python
+- Pathway Vectorstore
+- Anvil-Uplink
+- uAgents
+- Groq
 
-Provides real-time budget insights, summaries, and tips based on user queries.
-
-Technologies Used
-
-Python
-
-Pathway Vectorstore
-
-Anvil-Uplink
-
-uAgents
-
-Groq
-
-Prerequisites
+## Prerequisites
 
 Before running the project, ensure you have the following installed:
 
-Python 3.x
+- Python 3.x
+- Required dependencies (install using `pip install -r requirements.txt`)
+- Anvil Uplink
+- Environment variables for `GROQ_API_KEY` and `ANVIL_SERVER`
 
-Required dependencies (install using pip install -r requirements.txt)
+## Installation
 
-Anvil Uplink
+1. Clone the repository:
 
-Environment variables for GROQ_API_KEY and Anvil server
+   ```sh
+   git clone <repository-url>
+   cd budget-assistant
+   ```
 
-Installation
+2. Install dependencies:
 
-Clone the repository:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-git clone <repository-url>
-cd budget-assistant
+3. Set up environment variables:
 
-Install dependencies:
+   ```sh
+   export GROQ_API_KEY="your-api-key"
+   export ANVIL_SERVER="your-anvil-server"
+   ```
 
-pip install -r requirements.txt
-
-Set up environment variables:
-
-export GROQ_API_KEY="your-api-key"
-export ANVIL_SERVER="your-anvil-server"
-
-Usage
+## Usage
 
 Run the application with the following command:
 
+```sh
 python main.ipynb
+```
 
-File Structure
+## File Structure
 
+```
 YourFinanceBuddy/
 ├── main.ipynb                 # Jupyter Notebook with main logic
 ├── requirements.txt            # List of dependencies
 ├── README.md                  # Documentation
 ├── budget_breakdown.py         # Budget Breakdown Agent
+```
 
-Contribution
+## Contribution
 
 Feel free to submit issues or pull requests to improve the project.
 
-License
+## License
 
 This project is open-source and available under the MIT License.
-
