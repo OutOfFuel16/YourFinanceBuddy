@@ -54,7 +54,6 @@ python main.ipynb
 ```
 YourFinanceBuddy/
 ├── main.ipynb                 # Jupyter Notebook with main logic
-├── requirements.txt            # List of dependencies
 ├── README.md                  # Documentation
 ├── budget_breakdown.py         # Budget Breakdown Agent
 ```
