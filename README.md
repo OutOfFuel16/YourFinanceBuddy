@@ -22,7 +22,6 @@ YourFinanceBuddy is an AI-powered financial assistant that provides budget summa
 Before running the project, ensure you have the following installed:
 
 - Python 3.x
-- Required dependencies (install using `pip install -r requirements.txt`)
 - Anvil Uplink
 - Environment variables for `GROQ_API_KEY` and `ANVIL_SERVER`
 
@@ -35,13 +34,7 @@ Before running the project, ensure you have the following installed:
    cd budget-assistant
    ```
 
-2. Install dependencies:
-
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. Set up environment variables:
+2. Set up environment variables:
 
    ```sh
    export GROQ_API_KEY="your-api-key"
